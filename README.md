@@ -1,6 +1,6 @@
 # Terraform勉強-第31回：SQSをトリガーにしてLambda関数を実行し、CloudWatchでログを確認する
 
-githubリポジトリ：""
+githubリポジトリ："https://github.com/shu130/terraform-study31.git"
 
 ## SQSキューとLambda関数を連携させ、メッセージの処理やログの管理を行う仕組みをTerraformで構築する
 
