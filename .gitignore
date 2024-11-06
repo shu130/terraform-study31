@@ -1,0 +1,37 @@
+# ローカルのTerraform状態ファイル
+*.tfstate
+*.tfstate.*
+
+# .terraformフォルダ内のローカル情報（ロックファイルなど）
+.terraform/
+.terraform.lock.hcl
+
+# 個人の設定ファイル（terraformのログやプロバイダー認証情報など）
+terraform.tfvars
+*.tfvars
+
+# Terraformのクラッシュログファイル
+crash.log
+
+# Terraformのプラン出力ファイル
+*.tfplan
+
+# Terraformのバックアップファイル
+*.backup
+
+# 秘密鍵（SSH鍵やその他の資格情報ファイルなど、もし管理している場合）
+*.pem
+*.key
+
+# IDE関連の設定（例: VSCode）
+.vscode/
+.idea/
+
+# ログファイル
+*.log
+
+# 自分用ノート
+_notes/
+
+# 採用しなかったファイル
+**/*.disable*
